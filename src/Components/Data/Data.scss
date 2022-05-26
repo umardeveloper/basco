@@ -1,0 +1,45 @@
+.accordion__name{
+    color: #191919;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    margin: 0 auto 30px;
+    text-align: center;
+}
+
+@media (max-width:720px) {
+    
+    .accordion__name{
+        font-size: 35px;
+    }
+}
+
+@media (max-width:600px) {
+    
+    .accordion__name{
+        font-size: 30px;
+    }
+}
+
+@media (max-width:520px) {
+
+    .container{
+        width: 400px;
+    }
+    
+    .accordion__name{
+        font-size: 22px;
+        line-height: 38px;
+    }
+}
+
+
+
+@media (max-width:350px) {
+    
+    .accordion__name{
+        font-size: 22px;
+        line-height: 28px;
+    }
+}
